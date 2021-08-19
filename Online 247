@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-	res.send('Subscribe to PROKINGREX');
+	res.send('');
 });
 
 app.listen(3000, () => {
@@ -13,7 +13,7 @@ let client = new Discord.Client();
 
 client.on('ready', () => {
 	client.user.setPresence({
-		activity: { name: 'WHEN REX IS NO LONGER IN Z SMP' },
+		activity: { name: '' },
 		status: 'online'
 	});
 });
