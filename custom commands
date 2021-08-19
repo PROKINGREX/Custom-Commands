@@ -1,0 +1,8 @@
+client.on('message', async message => {
+	if (message.content === '') {
+		message.channel.send('');
+	}
+  
+  if (message.content === '') {
+		message.channel.send('');
+	}
